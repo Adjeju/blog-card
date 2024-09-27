@@ -4,8 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center mt-[120px]">
-      <div className="w-[340px] h-[504px] rounded-lg shadow bg-white">
+    <div className="flex justify-center items-center ">
+      <div className="w-[340px] rounded-lg shadow bg-white mt-[120px]">
         <Image
           src={imageSrc}
           alt="image"
@@ -15,10 +15,10 @@ export default function Home() {
           <div className="py-0.5 mb-2 px-2 w-max bg-green-50 border-green-200 border text-green-700 rounded-full text-sm">
             Interior
           </div>
-          <h1 className="text-lg font-semibold mb-3">
+          <h1 className="text-lg font-semibold mb-3 line-clamp-2">
             Top 5 Living Room Inspirations
           </h1>
-          <p className="text-base text-gray-500 mb-6 font-medium">
+          <p className="text-base text-gray-500 mb-6 font-medium line-clamp-2">
             Curated vibrants colors for your living, make it pop & calm in the
             same time.
           </p>
